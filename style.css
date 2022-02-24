@@ -1,7 +1,26 @@
+* {
+  background-color: #74c29b;
+}
 .mainContainer {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+.mainContainer > a#link {
+  font-family: arial;
+  font-size: 30px;
 }
 .mainContainer > h1 {
   font-family: 'Barriecito', cursive;
+  font-size: 100px;
+}
+.mainContainer > .content > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#first + #second {
+  border-style: solid;
+  border-width: 5px;
 }
