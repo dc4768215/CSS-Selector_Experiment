@@ -6,9 +6,15 @@
   flex-direction: column;
   text-align: center;
 }
-.mainContainer > a#link {
+a:hover{
+  color: blue;
+}
+a:link{
   font-family: arial;
-  font-size: 30px;
+  color: green;
+}
+a:visited{
+  color: pink;
 }
 .mainContainer > h1 {
   font-family: 'Barriecito', cursive;
